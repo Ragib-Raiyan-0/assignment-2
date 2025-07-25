@@ -22,7 +22,7 @@
 }
 .nav-links ul li a {
     text-decoration: none;
-    color: #8987A1;
+    color: rgb(0, 0,0 ,50%);
     font-weight: 500;
     font-size: 16px;
 }
@@ -44,8 +44,10 @@
 .intro{
     height: 80vh;
     /* display: flex; */
+    font-family: "Noto Serif", serif;
     justify-content:center;
     align-items: center;
+    font-weight: 500;
     
 
 }
@@ -66,14 +68,14 @@
         align-items: center;
     }
     .content1 p{
-    color: #8987A1;    
+    color: rgb(0, 0,0 ,50%);   
     }
-.content1 span{
+ .content1 span{
     
-    font-size: 50px;
+  
     color: hsl(23, 100%, 45%);
-    
-}
+     }     
+
 .content2
 {
     height: 100%;
@@ -83,11 +85,10 @@
 .second{
     display:flex;
     justify-content:center;
-    /* height: auto; */
-    /* width: 100%; */
+    
     align-content: center;
    /* background-color: red; */
-    color: #8987A1;
+    color: rgb(0, 0,0 ,50%);
 }
 /* second page */
 
@@ -100,10 +101,10 @@
     text-align: center;
     
 }
-.second span{
+/* .second span{
      color: hsl(23, 100%, 45%);
       
-}
+} */
 /* product grid start here */
 .products-grid {
     /* background-color: red; */
@@ -197,8 +198,11 @@
 margin-left: 40px;
 }
 .third_content ol{
-    /* margin-left: 30px; */
+   color: rgb(0, 0, 0, 50%);
     margin-left: 5%;
+}
+.fp-head{
+   font-family: "Noto Serif", serif;
 }
 /* 4rth part */
 .fourth{
