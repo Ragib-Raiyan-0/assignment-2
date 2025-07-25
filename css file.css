@@ -276,7 +276,7 @@ padding: 2%;
 
   background-color: rgba(0, 0, 0, 0.4); 
   text-align: center;
-}
+
 .conclusion input{
     background-color: #c64a00;
     border-radius: 10%;
@@ -287,4 +287,21 @@ padding: 2%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.mail{
+    margin-top: 10px;
+    z-index: 1;
+    
+}
+.mail input{
+    
+  
+
+    padding: 30px;
+    background-color: #ffffff;
+}
+.mail button{
+    background-color: #e85a00;
+    
+    color: #ffffff;
 }
